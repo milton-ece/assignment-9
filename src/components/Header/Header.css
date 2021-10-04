@@ -1,0 +1,28 @@
+.header {
+    background-image: url("https://www.wur.nl/upload_mm/e/6/7/4bd2aeeb-210a-45da-a491-6fc58d30d99c_shutterstock_436719832_84b7bf03_750x400.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 210px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+  }
+  
+  .title {
+    color: white;
+    font-weight: bold;
+    font-size: 59px;
+  }
+  .about-btn {
+    background-color: #6c0877;
+    /* outline: none; */
+    /* border: none; */
+    border-radius: 10px;
+    padding: 17px 34px;
+    color: white;
+/* font-weight: 500; */
+  }
+  
