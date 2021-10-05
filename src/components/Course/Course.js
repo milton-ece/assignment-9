@@ -1,11 +1,10 @@
 import React from 'react';
-import './Center.css';
+import './Course.css'
 
-const Center = (props) => {
-    // console.log(center.name);
-    const { img, Name, Category, Duration, Fee, Accomodation } = props.center;
+const Course = (props) => {
+    const { img, Name, Category, Duration, Fee, Accomodation } = props.course;
     return (
-        <div className="center">
+        <div className="course">
             <img src={img} alt="" />
             <h4>Course Title: {Name}</h4>
             <h6>Category: {Category}</h6>
@@ -16,4 +15,4 @@ const Center = (props) => {
     );
 };
 
-export default Center;
+export default Course;

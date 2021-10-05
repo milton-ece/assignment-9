@@ -1,12 +1,11 @@
-.center img{
+.course img{
     width: 230px;
     height: 150px;
 }
-.center {
+.course {
     background-color: lightsteelblue;
     box-shadow: 0 4px 8px 0 rosybrown;
-    padding: 10px; 
-    border-radius: 20px;
+       border-radius: 20px;
     padding: 20px; 
-    margin: 5px;
-}
+    margin: 10px;
+    }

@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Services from './components/Services/Services';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Courses from './components/Courses/Courses';
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/courses">
+            <Courses></Courses>
           </Route>
           <Route path="/about">
             <About></About>
@@ -37,8 +37,8 @@ function App() {
           </Route>
         </Switch>
         <Footer></Footer>
-      </BrowserRouter>
-    </div>
+      </BrowserRouter >
+    </div >
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="container d-flex bg-secondary">
+        <div className="bg-primary d-flex justify-content-evenly text-light">
             <div className="">
                 <p>Chitra Agro is dedicated to teach farmers fish farming.</p>
                 <h1>Fish farming with Milton</h1>
@@ -18,7 +18,7 @@ const About = () => {
 
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1628859742240-269783f56d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80" alt="" />
+                <img className="w-45" src="https://www.geosynthetica.com/wp-content/uploads/Solmax_PortSaid_FishFarm_700w.png" alt="" />
             </div>
         </div>
 

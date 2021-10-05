@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <div className="slogan">
                     <p>Tarapur, Singasholepur, Narail Sadar, Narail</p>
-                    <p>Phone: +8801911789523</p>
+                    <p>Phone: +8801911310945</p>
                     <p>E-mail: info@chitra-agro.com</p>
                 </div>
             </div>
