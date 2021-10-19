@@ -1,13 +1,9 @@
-.slogan{color: white}
-#shado-color{
-    color: blueviolet;
+.footer{
+    background-color: rgb(173, 52, 143);
+    color: #ffffff;
+   padding-top: 35px;
+   background-size: cover;
 }
-.vivid-color{
-    color: orangered;
-}
-.center-position{
-    text-align: center;
-}
-.dark-back{
-    background-color: black;
+.logo img{
+    width: 150px;
 }

@@ -1,18 +1,6 @@
-# Fish farming with Milton
+# Getting Started with Create React App
 
-Chitra Agro is dedicated to teach farmers fish farming. 
-
-# We cover:
-<1> fresh water shrimp
-<2> Venami
-<3> Black Tiger
-<4> Carp fattening
-<5> Tilapia
-<6> Cat fish
-
-# Our Vision
-Our intension is to make our country rich through fish farming. We can earn huge foreign remitance by exporting fishes abroad. 
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

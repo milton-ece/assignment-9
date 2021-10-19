@@ -1,47 +1,5 @@
 [
     {
-        "id": "970201",
-        "srvlogo": "https://image.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg",
-        "srvname": "Our Doctors",
-        "srvtitle": "Sparta Doctors Listen",
-        "srvdescription": "At Sparta you will be treated by caring, internationally trained doctors. They take the time to listen to you and understand your healthcare needs."
-    },
-    {
-        "id": "970202",
-        "srvlogo": "https://images.unsplash.com/photo-1582719471327-5bd41fcf7f7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=686&q=80",
-        "srvname": "Our Lab",
-        "srvtitle": "Diagnostics you can trust",
-        "srvdescription": "Our lab participates in the world’s largest external quality assessment scheme. Our average accuracy score is 99.9% and rated one of the best in Bangladesh."
-    },
-    {
-        "id": "970203",
-        "srvlogo": "https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        "srvname": "Vaccination",
-        "srvtitle": "Reliefe tension",
-        "srvdescription": "We are trusted by the government of Bangladesh to carry out COVID-19 tests. If you or any of your loved ones think you are infected by the coronavirus and want to get tested, you can book an appointment for a home sample collection and we will come to you."
-    },
-    {
-        "id": "970204",
-        "srvlogo": "https://images.unsplash.com/photo-1606318313647-137d1f3b4d3c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=877&q=80",
-        "srvname": "Health Checks",
-        "srvtitle": "Regular Health Checkup",
-        "srvdescription": "We believe in prevention rather than treatment. Our health checks help you stay on top of your health. Choose the one that is right for you."
-    },
-    {
-        "id": "970205",
-        "srvlogo": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "srvname": "Home Service",
-        "srvtitle": "Sample Collection",
-        "srvdescription": "Know if you may be suffering from Dengue fever and have Praava doctors help you recover"
-    },
-    {
-        "id": "970206",
-        "srvlogo": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        "srvname": "Inclinic Services",
-        "srvtitle": "Sparta Family Health Center",
-        "srvdescription": "We take care of all your outpatient needs under one roof"
-    },
-    {
         "id": "970901",
         "img": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
         "name": "Dr.Sohel Mahmud Sher",

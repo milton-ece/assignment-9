@@ -1,13 +1,14 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import "./Header.css";
-
+import './Header.css';
 const Header = () => {
     return (
-        <div className="row d-flex header align-items-center justify-content-center">
+        <div className="row header">
             <Navbar></Navbar>
-            <div className="col-md-6">
-                <h1 className="title"> Carp Fish Farming With Milton</h1>
+            <div className="col-md-6 title">
+                <p> Sparta HealthCare</p>
+                {/* <p> Any Time Anywhere</p>
+                <p>Join Sparta, a healthcare system that puts you first</p> */}
 
             </div>
 

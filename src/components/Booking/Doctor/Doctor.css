@@ -1,11 +1,12 @@
-.course img{
-    width: 230px;
-    height: 150px;
-}
-.course {
+.doctor{
     background-color: lightsteelblue;
     box-shadow: 0 4px 8px 0 rosybrown;
        border-radius: 20px;
     padding: 20px; 
-    margin: 10px;
-    }
+    margin: 10px;  
+}
+
+.doctor img{
+    width: 230px;
+    height: 150px;
+}

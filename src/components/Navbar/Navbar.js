@@ -1,32 +1,41 @@
 import React from 'react';
-import { Container, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import "./Navbar.css";
+import useAuth from '../hooks/useAuth';
+// import useFirebase from '../hooks/usefirebase';
+import './Navbar.css';
 
 const Navbar = () => {
+    // const { user, logout } = useFirebase();
+    const { user, logout } = useAuth();
     return (
-        <div className="MenuBar-container">
-            <div className="container">
+        <div className="">
+            <div className="">
                 <div className="row">
 
                     <div className="col-md-10">
                         <div>
-                            <ul className="d-flex align-items-end justify-content-end">
+                            <ul className="d-flex">
                                 <Link to="/home" className="items">
                                     <li>Home</li>
                                 </Link>
-                                <Link to="/courses" className="items">
-                                    <li>Courses</li>
+
+                                <Link to="/clients" className="items">
+                                    <li>Clients</li>
+                                </Link>
+                                <Link to="/member" className="items">
+                                    <li>Members</li>
                                 </Link>
                                 <Link to="/about" className="items">
-                                    <li>About us</li>
+                                    <li>About</li>
                                 </Link>
-                                <Link to="/contact" className="items">
-                                    <li>Contact us</li>
-                                </Link>
-                                <Link to="#" className="items">
+                                <Link to="/login" className="items">
                                     <li>Login</li>
                                 </Link>
+                                {/* <Link to="/register" className="items">
+                                    <li>Register</li>
+                                </Link> */}
+                                <span>{user.displayName}</span>
+                                {user?.email && <button onClick={logout}>Log Out</button>}
                             </ul>
                         </div>
                     </div>
