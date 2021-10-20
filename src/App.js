@@ -33,12 +33,12 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <Route path="/clients">
+            <PrivateRoute path="/clients">
               <Clients></Clients>
-            </Route>
-            <PrivateRoute path="/member">
-              <Membership></Membership>
             </PrivateRoute>
+            <Route path="/member">
+              <Membership></Membership>
+            </Route>
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -49,6 +49,8 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <About></About>
+          <Membership></Membership>
           <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>

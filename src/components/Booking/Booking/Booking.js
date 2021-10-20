@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import Doctors from '../Doctors/Doctors';
 
 const Booking = () => {
-    const { serviceId } = useParams();
+    // const { serviceId } = useParams();
 
 
     return (

@@ -37,7 +37,7 @@ const Navbar = () => {
                                 {/* <Link to="/register" className="items">
                                     <li>Register</li>
                                 </Link> */}
-                                <span>{user.displayName}</span>
+                                <span className="items">{user.displayName}</span>
                                 {user?.displayName && <button onClick={logout}>logout</button>}
                             </ul>
                         </div>
