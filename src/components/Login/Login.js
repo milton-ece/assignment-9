@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useAuth from '../hooks/useAuth';
+// import useAuth from '../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 // import useFirebase from '../hooks/usefirebase';
 
 const Login = () => {

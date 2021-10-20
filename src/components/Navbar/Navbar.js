@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useAuth from '../hooks/useAuth';
+// import useAuth from '../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 // import useFirebase from '../hooks/usefirebase';
 import './Navbar.css';
 
 const Navbar = () => {
     // const { user, logout } = useFirebase();
     const { user, logout } = useAuth();
+    console.log(user)
+
     return (
         <div className="">
             <div className="">
@@ -35,7 +38,7 @@ const Navbar = () => {
                                     <li>Register</li>
                                 </Link> */}
                                 <span>{user.displayName}</span>
-                                {user?.email && <button onClick={logout}>Log Out</button>}
+                                {user?.displayName && <button onClick={logout}>logout</button>}
                             </ul>
                         </div>
                     </div>

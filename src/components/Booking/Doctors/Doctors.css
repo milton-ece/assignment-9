@@ -1,0 +1,10 @@
+.doctors {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(231, 223, 225);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    border :1px solid rgb(5, 5, 6);
+    padding: 25px;
+    border-radius: 10px;
+}

@@ -12,6 +12,7 @@ import Membership from './components/Membership/Membership';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -35,9 +36,9 @@ function App() {
             <Route path="/clients">
               <Clients></Clients>
             </Route>
-            <Route path="/member">
+            <PrivateRoute path="/member">
               <Membership></Membership>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
